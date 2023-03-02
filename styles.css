@@ -1,14 +1,41 @@
 /* Write your CSS here! */
 
+* {
+    text-align: center;
+}
+
 body {
     margin: 8px;
+    font-family: "ff-meta-web-pro", sans-serif;
+    background: #f6efe5;
     display: block;
 }
 
-#mainHeading {
-    color: red;
+.image-container {
+    display: grid;
+    height: 100%;
+}
+
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
 }
 
 .funParagraph {
     color: green;
+}
+
+#mainHeading {
+    color: red;
+    }
+
+#title {
+    border-style: groove;
+    border-color: black;
+}
+
+#navBar {
+    background-color: rgb(201, 145, 40);
+    padding: 10px 0;    
 }
